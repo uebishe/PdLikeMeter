@@ -6,7 +6,7 @@ from collections import OrderedDict
 from bs4 import BeautifulSoup
 
 topic_id = 214632
-filename = 'topic' + str(topic_id) + '.p'
+filename = 'cache/topic' + str(topic_id) + '.p'
 base_url = 'https://prodota.ru/forum/index.php?showtopic=' + str(topic_id)
 cookies = {'mobileBrowser': '1',
            'language': '2'}
